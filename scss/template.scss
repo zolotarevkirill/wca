@@ -518,7 +518,13 @@ nav{
     padding-top: 50px;
 
     .products{
-
+        overflow: hidden;
+        width: 1260px;
+        
+        .products_wrapper{
+            width: 1280px;
+            overflow: hidden;
+        }
     }
 
 }
@@ -529,7 +535,7 @@ nav{
     padding-top: 20px;
 }
 
-.product{
+/*.product{
     background: #fff;
     border-radius: 5px;
     margin-left: 20px;
@@ -625,17 +631,37 @@ nav{
             font-weight: bold;
 
             .rub{
-                display: inline-block; 
-                font-size: 16px; 
-                line-height: 6px;  
+                display: inline-block;
+                font-size: 26px;
+                line-height: 12px;
                 border-bottom: 1px solid #000000;
-                width:0.4em;
+                width: 0.4em;
             }
         }
 
     }
 
+}*/
+
+.product{
+    float: left;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    width:260px;
+    background: #fff;
+  
 }
+
+.product_big{
+    float: left;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    width:580px;
+    background: #fff;
+    
+}
+
+
 
 
 
